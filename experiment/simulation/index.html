@@ -1,13 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulation</title>
+
+<style>
+body{
+    font-family: "Times New Roman", serif;
+    background:#f2f2f2;
+}
+
+.container{
+    width:800px;
+    margin:40px auto;
+    background:#fff;
+    padding:40px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.row{
+    margin:20px 0;
+}
+
+label{
+    display:inline-block;
+    width:180px;
+}
+
+button{
+    margin-top:15px;
+    padding:4px 12px;
+    cursor:pointer;
+}
+
+.result{
+    margin-top:30px;
+}
+
+.explanation{
+    display:none;
+    margin-top:80px;
+}
+
+.explanation h2{
+    margin-bottom:30px;
+}
+
+.explanation p{
+    line-height:1.7;
+    text-align:justify;
+}
+
+.video-section{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.video-section video{
+    max-width:100%;
+    border:1px solid #ccc;
+}
+</style>
 </head>
 <body>
-		<!-- Your code goes here-->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<div class="container">
+ <h1>Animation</h1>
+
+    <!-- Experiment Animation Video -->
+    <div class="video-section">
+        <video width="700" controls>
+            <source src="images/Final_Exp8.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <h1>Simulation</h1>
+
+    <div class="row">
+        <strong>Stationary Phase:</strong> Silica gel
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <strong>Saturation time:</strong> 15 minutes
+    </div>
+
+    <div class="row">
+        <label>Solvent System:</label>
+
+        <select name="two" id="two">
+            <option>None</option>
+            <option>CHCl3: MeOH: Acetic Acid A: 9.5:0.5:0.1</option>
+            <option>CHCl3: MeOH: Acetic Acid A: 9.0:0.5:0.1</option>
+            <option>CHCl3: MeOH: Acetic Acid A: 9.0:0.2:0.1</option>
+        </select>
+
+        <br>
+        <button onclick="showResult()">Submit</button>
+    </div>
+
+    <div class="result">
+        <p><strong>Optimum Rf:</strong> 0.64</p>
+        <p>
+            <strong>Simulation Rf:</strong>
+            <input type="text" id="rfValue" readonly>
+        </p>
+
+        <p>RF VALUE IS DEPENDENT ON POLARITY OF SOLVENT SYSTEM</p>
+    </div>
+
+    <!-- Hidden initially -->
+    <div class="explanation" id="explanation">
+        <h2>EXPLANATION:</h2>
+
+        <p>
+            The solvent system is an organic solvent or mixture of different organic solvents. As the solvent system moves over the surface of the stationary phase, it transports the analyte over the particles of the stationary phase. Therefore, if a highly polar solvent is used, it will interact strongly with the surface of the stationary phase and will leave only few sites on the stationary phase free to bind with the analyte. The analyte will, therefore, move quickly over the stationary phase. Similarly, polar groups in the solvent can interact strongly with polar functionality in the analyte and prevent interaction of the analyte with the surface of the stationary phase. These effects lead to rapid movement of the analyte over the stationary phase.
+        </p>
+
+        
+    </div>
+
+</div>
+
+<script>
+function showResult() {
+
+    const solvent = document.getElementById("two").value;
+    const rfBox = document.getElementById("rfValue");
+
+    const rfValues = {
+        "CHCl3: MeOH: Acetic Acid A: 9.5:0.5:0.1": "0.64",
+        "CHCl3: MeOH: Acetic Acid A: 9.0:0.5:0.1": "0.95",
+        "CHCl3: MeOH: Acetic Acid A: 9.0:0.2:0.1": "0.66",
+    
+    };
+
+    rfBox.value = rfValues[solvent] || "";
+
+    // Show explanation after submit
+    document.getElementById("explanation").style.display = "block";
+}
+</script>
+
 </body>
 </html>

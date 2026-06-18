@@ -2,37 +2,88 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Rf value is less than one because",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Distance covered by the solute is more than solvent front",
+        "b": "Distance covered by solvent front is more than distance covered by solute",
+        "c": "Both of them",
+        "d": "None of them"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. The solute can never travel farther than the solvent front.",
+        "b": "Correct. Rf value is the ratio of distance traveled by the solute to the distance traveled by the solvent front, so it is usually less than 1.",
+        "c": "Incorrect. Only the solvent front travels farther than the solute.",
+        "d": "Incorrect. Option b is correct."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Rf value is close to 1, then what happened?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Good Separation occurs",
+        "b": "No Separation occurs",
+        "c": "Separation does not depend on Rf",
+        "d": "None of them"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. An Rf value close to 1 generally indicates that the compound has moved with the solvent front, reducing separation quality.",
+        "b": "Correct. When Rf is close to 1, the analyte moves nearly with the solvent front, resulting in poor or no separation.",
+        "c": "Incorrect. Separation is influenced by Rf values.",
+        "d": "Incorrect. Option b is correct."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Rf value is affected by",
+      "answers": {
+        "a": "Polarity of solvent",
+        "b": "Saturation period of chamber",
+        "c": "pH of the solution",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "Correct but incomplete. Solvent polarity affects Rf value.",
+        "b": "Correct but incomplete. Chamber saturation affects Rf value.",
+        "c": "Correct but incomplete. pH can affect the movement of analytes.",
+        "d": "Correct. Solvent polarity, chamber saturation, and pH all influence Rf values."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Solvent chamber should be saturated for",
+      "answers": {
+        "a": "Uniform rising of bands",
+        "b": "Even distribution of solvent vapours",
+        "c": "Both of them",
+        "d": "None of them"
+      },
+      "explanations": {
+        "a": "Correct but incomplete. Saturation helps in uniform migration.",
+        "b": "Correct but incomplete. Saturation ensures uniform solvent vapor distribution.",
+        "c": "Correct. Chamber saturation provides uniform band movement and even solvent vapor distribution.",
+        "d": "Incorrect. Option c is correct."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which loading gas is used in HPTLC?",
+      "answers": {
+        "a": "H2",
+        "b": "O2",
+        "c": "He",
+        "d": "N2"
+      },
+      "explanations": {
+        "a": "Incorrect. Hydrogen is not commonly used as a loading gas in HPTLC.",
+        "b": "Incorrect. Oxygen is not used as a loading gas.",
+        "c": "Incorrect. Helium is mainly used in GC applications.",
+        "d": "Correct. Nitrogen (N2) is commonly used as the loading/spraying gas in HPTLC instruments."
+      },
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
