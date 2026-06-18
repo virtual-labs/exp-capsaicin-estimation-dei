@@ -102,3 +102,14 @@ Fig. 2: Linearity of capsaicin
 
 Fig. 3: Image at 254nm
 
+### Results:
+
+**Table 1: Quantification of the Embelin values in Samples**
+
+| S. No. | Sample name       | Capsaicin concentration (per 100g of chili extract) |
+|---------|--------------|---------------------------|
+| 1       | Red chili    |5.145g
+| 2       | Green chili  |0.910g
+| 3       | Capsicum     |	0*
+
+
