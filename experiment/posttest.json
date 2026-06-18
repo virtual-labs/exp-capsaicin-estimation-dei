@@ -1,39 +1,90 @@
 {
   "version": 2.0,
   "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+  {
+    "question": "Capsaicin is a",
+    "answers": {
+      "a": "Alkaloid",
+      "b": "Terpenoid",
+      "c": "Flavanoid",
+      "d": "None of the above"
     },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
+    "explanations": {
+      "a": "Correct. Capsaicin is classified as a protoalkaloid due to the presence of nitrogen in its structure.",
+      "b": "Incorrect. Capsaicin is not a terpenoid.",
+      "c": "Incorrect. Capsaicin is not a flavonoid.",
+      "d": "Incorrect. Capsaicin is considered a protoalkaloid."
+    },
+    "correctAnswer": "a",
+    "difficulty": "beginner"
+  },
+  {
+    "question": "Heteroatom present in alkaloids is",
+    "answers": {
+      "a": "Sulphur",
+      "b": "Nitrogen",
+      "c": "Oxygen",
+      "d": "Phosphorus"
+    },
+    "explanations": {
+      "a": "Incorrect. Sulphur is not the characteristic heteroatom of alkaloids.",
+      "b": "Correct. Alkaloids are nitrogen-containing organic compounds.",
+      "c": "Incorrect. Oxygen may be present but is not the defining heteroatom.",
+      "d": "Incorrect. Phosphorus is not characteristic of alkaloids."
+    },
+    "correctAnswer": "b",
+    "difficulty": "beginner"
+  },
+  {
+    "question": "Capsaicin is not found in",
+    "answers": {
+      "a": "Red chilli",
+      "b": "Bell pepper",
+      "c": "Green chilli",
+      "d": "Kali mirch"
+    },
+    "explanations": {
+      "a": "Incorrect. Red chilli contains capsaicin.",
+      "b": "Incorrect. Bell pepper belongs to the Capsicum genus, although capsaicin content is negligible.",
+      "c": "Incorrect. Green chilli contains capsaicin.",
+      "d": "Correct. Kali mirch (black pepper) contains piperine, not capsaicin."
+    },
+    "correctAnswer": "d",
+    "difficulty": "beginner"
+  },
+  {
+    "question": "Capsaicin is located in",
+    "answers": {
+      "a": "Ovary",
+      "b": "Seeds",
+      "c": "Sepals",
+      "d": "None of the above"
+    },
+    "explanations": {
+      "a": "Correct. Capsaicin is primarily produced in the placental tissue associated with the ovary of chilli fruits.",
+      "b": "Incorrect. Seeds do not synthesize capsaicin; they may only absorb some from surrounding tissues.",
+      "c": "Incorrect. Sepals do not contain significant capsaicin.",
+      "d": "Incorrect. Option a is correct."
+    },
+    "correctAnswer": "a",
+    "difficulty": "beginner"
+  },
+  {
+    "question": "Melting point of capsaicin is",
+    "answers": {
+      "a": "125°C",
+      "b": "135°C",
+      "c": "65°C",
+      "d": "95°C"
+    },
+    "explanations": {
+      "a": "Incorrect. This is higher than the reported melting point.",
+      "b": "Incorrect. This is much higher than the reported melting point.",
+      "c": "Correct. Pure capsaicin has a melting point around 62–65°C.",
+      "d": "Incorrect. This is higher than the reported melting point."
+    },
+    "correctAnswer": "c",
+    "difficulty": "beginner"
+  }
+]
 }
