@@ -90,26 +90,39 @@ Extraction of oxytocin from different market available vegetables, fruits and mi
 
 Use of pre-coated silica gel HPTLC plates with Chloroform: Methanol: Acetic acid (9.5:0.5:0.1) (v/v/v) resulted in good separation of the capsaicin at 282 nm (Rf 0.64). The absence of additional peaks in chromatogram indicates non- interference of the common excipients used. Regression analysis of the calibration data for capsaicin showed that the dependent variable (peak area) and the independent variable (concentration) were represented by the equations Y = 2153.297 + 1299.931 x for capsaicin in Red chili, Green chili and Capsicum. The correlation of coefficient (r) obtained was 0.9987 shows a good linear relationship.
 
-![Project Screenshot](images/obs_exp8_1.jpg)
+<div align="center">
+    <img src="images/obs_exp8_1.jpg" alt="3D View of scanned data" width="600">
+    <br>
+    <b>Fig. 1: 3D View of Scanned Data</b>
+</div>
 
-Fig. 1: 3 D View of scanned data
+<br>
 
-![Project Screenshot](images/obs_exp8_2.jpg)
+<div align="center">
+    <img src="images/obs_exp8_2.jpg" alt="Linearity of Capsaicin" width="600">
+    <br>
+    <b>Fig. 2: Linearity of Capsaicin</b>
+</div>
 
-Fig. 2: Linearity of capsaicin
+<br>
 
-![Project Screenshot](images/obs_exp8_3.jpg)
+<div align="center">
+    <img src="images/obs_exp8_3.jpg" alt="Image at 254nm" width="600">
+    <br>
+    <b>Fig. 3: Image at 254 nm</b>
+</div>
 
-Fig. 3: Image at 254nm
+### Results
 
-### Results:
+<div align="center">
 
-**Table 1: Quantification of the Embelin values in Samples**
+**Table 1: Quantification of Capsaicin Values in Samples**
 
-| S. No. | Sample name       | Capsaicin concentration (per 100g of chili extract) |
-|---------|--------------|---------------------------|
-| 1       | Red chili    |5.145g
-| 2       | Green chili  |0.910g
-| 3       | Capsicum     |	0*
+| S. No. | Sample Name | Capsaicin Concentration (per 100 g of Chili Extract) |
+|:------:|:-----------:|:----------------------------------------------------:|
+| 1 | Red Chili | 5.145 g |
+| 2 | Green Chili | 0.910 g |
+| 3 | Capsicum | 0* |
 
+</div>
 
