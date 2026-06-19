@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Rf value is less than one because",
+      "question": "1. Rf value is less than one because",
       "answers": {
         "a": "Distance covered by the solute is more than solvent front",
         "b": "Distance covered by solvent front is more than distance covered by solute",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Rf value is close to 1, then what happened?",
+      "question": "2. Rf value is close to 1, then what happened?",
       "answers": {
         "a": "Good Separation occurs",
         "b": "No Separation occurs",
@@ -36,7 +36,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Rf value is affected by",
+      "question": "3. Rf value is affected by",
       "answers": {
         "a": "Polarity of solvent",
         "b": "Saturation period of chamber",
@@ -53,7 +53,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Solvent chamber should be saturated for",
+      "question": "4. Solvent chamber should be saturated for",
       "answers": {
         "a": "Uniform rising of bands",
         "b": "Even distribution of solvent vapours",
@@ -70,7 +70,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which loading gas is used in HPTLC?",
+      "question": "5. Which loading gas is used in HPTLC?",
       "answers": {
         "a": "H2",
         "b": "O2",
