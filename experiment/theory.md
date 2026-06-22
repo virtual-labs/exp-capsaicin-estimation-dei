@@ -20,7 +20,7 @@ Capsaicin is a safe and effective analgesic agent in the management of arthritis
 
 
 <div align="center">
-  <img src="images/experiment_8_img1.jpg" alt="Theory Image" width="600">
+  <img src="images/experiment_8_img1.jpg" alt="Theory Image" width="300">
 </div>
 
 
