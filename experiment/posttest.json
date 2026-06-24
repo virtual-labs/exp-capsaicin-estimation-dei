@@ -1,90 +1,85 @@
 {
   "version": 2.0,
   "questions": [
-  {
-    "question": "1. Capsaicin is a-",
-    "answers": {
-      "a": "Alkaloid",
-      "b": "Terpenoid",
-      "c": "Flavanoid",
-      "d": "None of the above"
+    {
+      "question": "1. Oxytocin is naturally a-",
+      "answers": {
+        "a": "Steroid hormone",
+        "b": "Peptide hormone",
+        "c": "Carbohydrate hormone",
+        "d": "Lipid hormone"
+      },
+      "explanations": {
+        "a": "Incorrect. Oxytocin is not a steroid hormone.",
+        "b": "Correct. Oxytocin is a peptide hormone composed of amino acids.",
+        "c": "Incorrect. Oxytocin is not a carbohydrate hormone.",
+        "d": "Incorrect. Oxytocin is not a lipid hormone."
+      },
+      "correctAnswer": "b"
     },
-    "explanations": {
-      "a": "Correct. Capsaicin is classified as a protoalkaloid due to the presence of nitrogen in its structure.",
-      "b": "Incorrect. Capsaicin is not a terpenoid.",
-      "c": "Incorrect. Capsaicin is not a flavonoid.",
-      "d": "Incorrect. Capsaicin is considered a protoalkaloid."
+    {
+      "question": "2. Which solvent was used for the extraction of oxytocin from food samples?",
+      "answers": {
+        "a": "Ethanol",
+        "b": "Acetone",
+        "c": "Methanol",
+        "d": "Chloroform"
+      },
+      "explanations": {
+        "a": "Incorrect. Ethanol was not used in this experiment.",
+        "b": "Incorrect. Acetone was used in the mobile phase, not for extraction.",
+        "c": "Correct. Methanol was used to extract oxytocin from the samples.",
+        "d": "Incorrect. Chloroform was not used for extraction."
+      },
+      "correctAnswer": "c"
     },
-    "correctAnswer": "a",
-    "difficulty": "beginner"
-  },
-  {
-    "question": "2. Heteroatom present in alkaloids is-",
-    "answers": {
-      "a": "Sulphur",
-      "b": "Nitrogen",
-      "c": "Oxygen",
-      "d": "Phosphorus"
+    {
+      "question": "3. The extraction of oxytocin from vegetables and fruits was performed using-",
+      "answers": {
+        "a": "Soxhlet extraction",
+        "b": "Steam distillation",
+        "c": "Cold percolation with sonication",
+        "d": "Reflux extraction"
+      },
+      "explanations": {
+        "a": "Incorrect. Soxhlet extraction was not used.",
+        "b": "Incorrect. Steam distillation is generally used for volatile compounds.",
+        "c": "Correct. Cold percolation followed by sonication was used for extraction.",
+        "d": "Incorrect. Reflux extraction was not employed."
+      },
+      "correctAnswer": "c"
     },
-    "explanations": {
-      "a": "Incorrect. Sulphur is not the characteristic heteroatom of alkaloids.",
-      "b": "Correct. Alkaloids are nitrogen-containing organic compounds.",
-      "c": "Incorrect. Oxygen may be present but is not the defining heteroatom.",
-      "d": "Incorrect. Phosphorus is not characteristic of alkaloids."
+    {
+      "question": "4. Which stationary phase was used in the HPTLC analysis?",
+      "answers": {
+        "a": "Alumina",
+        "b": "Cellulose",
+        "c": "Charcoal",
+        "d": "Silica gel 60 F254"
+      },
+      "explanations": {
+        "a": "Incorrect. Alumina was not used in this experiment.",
+        "b": "Incorrect. Cellulose was not used as the stationary phase.",
+        "c": "Incorrect. Charcoal was not used as the stationary phase.",
+        "d": "Correct. Silica gel 60 F254 coated HPTLC plates were used."
+      },
+      "correctAnswer": "d"
     },
-    "correctAnswer": "b",
-    "difficulty": "beginner"
-  },
-  {
-    "question": "3. Capsaicin is not found in-",
-    "answers": {
-      "a": "Red chilli",
-      "b": "Bell pepper",
-      "c": "Green chilli",
-      "d": "Kali mirch"
-    },
-    "explanations": {
-      "a": "Incorrect. Red chilli contains capsaicin.",
-      "b": "Incorrect. Bell pepper belongs to the Capsicum genus, although capsaicin content is negligible.",
-      "c": "Incorrect. Green chilli contains capsaicin.",
-      "d": "Correct. Kali mirch (black pepper) contains piperine, not capsaicin."
-    },
-    "correctAnswer": "d",
-    "difficulty": "beginner"
-  },
-  {
-    "question": "4. Capsaicin is located in-",
-    "answers": {
-      "a": "Ovary",
-      "b": "Seeds",
-      "c": "Sepals",
-      "d": "None of the above"
-    },
-    "explanations": {
-      "a": "Correct. Capsaicin is primarily produced in the placental tissue associated with the ovary of chilli fruits.",
-      "b": "Incorrect. Seeds do not synthesize capsaicin; they may only absorb some from surrounding tissues.",
-      "c": "Incorrect. Sepals do not contain significant capsaicin.",
-      "d": "Incorrect. Option a is correct."
-    },
-    "correctAnswer": "a",
-    "difficulty": "beginner"
-  },
-  {
-    "question": "5. Melting point of capsaicin is-",
-    "answers": {
-      "a": "125°C",
-      "b": "135°C",
-      "c": "65°C",
-      "d": "95°C"
-    },
-    "explanations": {
-      "a": "Incorrect. This is higher than the reported melting point.",
-      "b": "Incorrect. This is much higher than the reported melting point.",
-      "c": "Correct. Pure capsaicin has a melting point around 62–65°C.",
-      "d": "Incorrect. This is higher than the reported melting point."
-    },
-    "correctAnswer": "c",
-    "difficulty": "beginner"
-  }
-]
+    {
+      "question": "5. Excess consumption of oxytocin-adulterated food may cause-",
+      "answers": {
+        "a": "Headache, nausea, and abdominal pain",
+        "b": "Improved immunity",
+        "c": "Enhanced digestion",
+        "d": "Increased vitamin absorption"
+      },
+      "explanations": {
+        "a": "Correct. Excess oxytocin intake may lead to headache, nausea, abdominal pain, and drowsiness.",
+        "b": "Incorrect. Oxytocin adulteration does not improve immunity.",
+        "c": "Incorrect. Oxytocin does not enhance digestion.",
+        "d": "Incorrect. Oxytocin does not increase vitamin absorption."
+      },
+      "correctAnswer": "a"
+    }
+  ]
 }
